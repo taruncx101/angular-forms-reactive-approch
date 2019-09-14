@@ -51,6 +51,7 @@ export class AppComponent implements OnInit {
   }
   onSubmit() {
     console.log(this.signUpForm);
+    this.signUpForm.reset();
   }
   onAddHobby() {
     const control = new FormControl(null, Validators.required);
