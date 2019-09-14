@@ -27,6 +27,8 @@ export class AppComponent implements OnInit {
     //     console.log(value);
     //   }
     // );
+
+
     this.signUpForm.statusChanges.subscribe(
       (status) => {
         console.log(status);
